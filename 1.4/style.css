@@ -70,7 +70,8 @@ a {
 	text-decoration: none;
 	}
 .slideMenuBlock {
-	margin: auto 16px auto 24px;
+	margin: auto 16px auto 4px;
+	padding-left: 20px;
 	display: flex;
 	align-items: center;
 	color: #1B1C21;
@@ -79,24 +80,13 @@ a {
 	line-height: 24px;
 	font-weight: 600;
 }
-	.menu__active {
-		display: flex;
-		align-items: center;
-		flex-direction: row;
-		justify-content: flex-start;
-	}
+
+
+		.slideMenuBlock:hover, .slideMenuBlock:focus {
+			box-shadow: -25px 0px 0px -10px #41F6D7;
+		}
+
 	
-		.text__divider {
-			width: 6px;
-			height: 40px;
-			background: #41F6D7;
-			border-radius: 20px;	
-			margin-left: -3px;
-			background-position-x: 30px;
-			}
-			.menu__active .slideMenuBlock {
-				margin: auto 16px auto 21px;
-			}
 			footer {
 		display: flex;
 		flex-direction: column;
