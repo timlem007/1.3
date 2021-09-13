@@ -12,30 +12,33 @@ body {
 
 }
 
-header {
+.header-service {
 	background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
 	line-height: 24px;
 	font-size: 16px;
 	text-transform: uppercase;
 }
 
-.title {
-	margin: 16px 16px 16px 16px;
+.title-service {
+	padding: 16px 16px 16px 16px;
 	line-height: 24px;
 	font-size: 16px;
 	box-sizing: border-box;
 	color: #7E7E82;
+	margin: 0px;
 }
 
 @media (min-width:767px) {
-	.title {
-		margin: 16px 0px 16px 24px;
+	.title-service {
+		padding: 16px 0px 16px 24px;
+		margin: 0px;
 	}
 }
 
 @media (min-width:1119px) {
-	.title {
-		margin: 16px 0px 16px 32px;
+	.title-service {
+		padding: 16px 0px 16px 32px;
+		margin: 0px;
 	}
 }
 
@@ -69,25 +72,25 @@ main {
 	}
 }
 
-.menu [hidden] {
+.service-menu [hidden] {
 	display: none;
 }
 
 @media (min-width:767px) {
-	.menu[hidden] {
-		margin: 24px 0px 0px 24px;
+	.service-menu[hidden] {
+		padding: 24px 0px 0px 24px;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: space-between;
 		box-sizing: border-box;
 		min-width: 0px;
-		max-height: 170px;
+		max-height: 180px;
 		overflow: hidden;
 		}
 }
 
-	.menuUnloaded[hidden] {
+	.service-menuUnloaded[hidden] {
 		margin: 24px 0px 0px 24px;
 		display: flex;
 		flex-direction: row;
@@ -100,14 +103,14 @@ main {
 	}
 
 @media (min-width:1119px) {
-	.menu[hidden] {
-		margin: 24px 0px 0px 32px;
+	.service-menu[hidden] {
+		padding: 24px 0px 0px 32px;
 		max-width: 1350px;
 	}
 }
 
-.menu_unloaded[hidden] {
-	margin: 24px 0px 0px 32px;
+.service-menu_unloaded[hidden] {
+	padding: 24px 0px 0px 32px;
 		max-width: 1350px;
 		max-height: 260px;
 }
@@ -120,7 +123,7 @@ main {
 	flex-basis: 400px;
 }
 
-.menu__block {
+.service-menu__block {
 	background-color: #FFFFFF;
 	width: 240px;
 	min-height: 72px;
@@ -133,12 +136,12 @@ main {
 	flex-basis: 240px;
 }
 
-.menu__block:hover {
+.service-menu__block:hover {
 	cursor: pointer;
 }
 
 @media (min-width:767px) {
-	.menu__block {
+	.service-menu__block {
 		background: #FFFFFF;
 		flex-basis: 223px;
 		height: 72px;
@@ -148,7 +151,7 @@ main {
 }
 
 @media (min-width:1119px) {
-	.menu__block {
+	.service-menu__block {
 		background: #FFFFFF;
 		flex-basis: 240px;
 		height: 72px;
@@ -157,7 +160,7 @@ main {
 }
 
 @media (min-width:767px) {
-	.menu__block_hidden[hidden] {
+	.service-menu__block_hidden[hidden] {
 		display: flex;
 		flex-basis: 223px;
 		height: 72px;
@@ -165,13 +168,13 @@ main {
 		box-sizing: border-box;
 	}
 
-	.menu__block_hidden[hidden]:hover {
+	.service-menu__block_hidden[hidden]:hover {
 		cursor: default;
 	}
 }
 
 @media (min-width:1119px) {
-	.menu__block_hidden[hidden] {
+	.service-menu__block_hidden[hidden] {
 		display: flex;
 		flex-basis: 240px;
 		height: 72px;
@@ -184,34 +187,34 @@ main {
 	width: 420px;
 }
 
-.menu__block_logo {
+.service-menu__block_logo {
 	margin: 0px 16px 0px 16px;
 }
 
 @media (min-width:767px) {
-	.menu__block_logo {
+	.service-menu__block_logo {
 		margin: 0px 0px 0px 16px;
 	}
 }
 
 @media (min-width:1119px) {
-	.menu__block_logo {
+	.service-menu__block_logo {
 		margin: 0px 0px 0px 16px;
 	}
 }
 
-.menu__block_icon {
+.service-menu__block_icon {
 	margin: 0px 16px 0px 16px;
 }
 
 @media (min-width:767px) {
-	.menu__block_icon {
+	.service-menu__block_icon {
 		margin: 0px 16px 0px 0px;
 	}
 }
 
 @media (min-width:1119px) {
-	.menu__block_icon {
+	.service-menu__block_icon {
 		margin: 0px 16px 0px 0px;
 	}
 }
@@ -239,7 +242,7 @@ main {
 	.read-more {
 		visibility: visible;
 		display: flex;
-		margin: 8px 0px 0px 24px;
+		padding: 8px 0px 0px 24px;
 	}
 }
 
@@ -247,7 +250,7 @@ main {
 	.read-more {
 		visibility: visible;
 		display: flex;
-		margin: 8px 0px 0px 32px;
+		padding: 8px 0px 0px 32px;
 	}
 }
 
