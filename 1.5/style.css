@@ -145,7 +145,8 @@ main {
 		background: #FFFFFF;
 		flex-basis: 223px;
 		height: 72px;
-		margin: 0px 24px 16px 0px;
+		margin-bottom:16px;
+		padding-right: 24px;
 		box-sizing: border-box;
 	}
 }
@@ -155,7 +156,8 @@ main {
 		background: #FFFFFF;
 		flex-basis: 240px;
 		height: 72px;
-		margin: 0px 32px 16px 0px;
+		padding-right: 32px;
+		margin-bottom:16px;
 	}
 }
 
@@ -164,7 +166,8 @@ main {
 		display: flex;
 		flex-basis: 223px;
 		height: 72px;
-		margin: 0px 24px 16px 0px;
+		margin-bottom:16px;
+		padding-right: 24px;
 		box-sizing: border-box;
 	}
 
@@ -178,7 +181,8 @@ main {
 		display: flex;
 		flex-basis: 240px;
 		height: 72px;
-		margin: 0px 32px 16px 0px;
+		margin-bottom:16px;
+		padding-right: 32px;
 		box-sizing: border-box;
 	}
 }
